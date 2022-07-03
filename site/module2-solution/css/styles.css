@@ -1,5 +1,4 @@
 *{
-	
 	box-sizing: border-box;
 }
 
@@ -8,13 +7,13 @@ h1{
 	text-align: center;
 }
 p {
-  position: relative;
-  font-family: Helvetica;
-  color: white;
+    position: relative;
+    font-family: Helvetica;
+    color: white;
 }
 
 .row {
-  width: 100%;
+    width: 100%;
 }
 
 
@@ -76,9 +75,9 @@ span{
 
 /*phone*/
 @media (max-width: 767){
-  .col-12 {
-  	float: left;
-    width: 100%;
+    .col-12 {
+  	    float: left;
+        width: 100%;
   }
 	
 }
