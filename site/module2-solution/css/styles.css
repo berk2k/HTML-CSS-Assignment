@@ -1,0 +1,91 @@
+*{
+	
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom: 10px;
+	text-align: center;
+}
+p {
+  position: relative;
+  font-family: Helvetica;
+  color: white;
+}
+
+.row {
+  width: 100%;
+}
+
+
+
+.section {
+	background-color: gray;
+	border: 5px solid black;
+	margin: 10px;
+	padding: 20px;
+	position: relative;
+}
+
+span{
+	font-size: 18px;
+	border:2px solid black;
+	float:right; right: 0;top: 0; 
+	position: absolute;
+	width: 20%;
+	text-align: center;
+}
+
+#span1{
+	background-color: black;
+	color: white;
+}
+
+#span2{
+	color:darkblue;
+	background-color: yellow;
+}
+
+#span3{
+	color: black;
+	background-color: white 
+}
+
+
+/*laptop*/
+@media (min-width: 992px){
+ 	.col-lg-4{
+ 		width: 33.33%;
+ 		float: left; 
+ 	}	
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6,.col-md-12{
+		float: left;
+	}
+ 	.col-md-6{
+ 		width: 50%;
+ 	}
+
+ 	.col-md-12{
+ 		width: 100%; 
+ 	}	
+}
+
+/*phone*/
+@media (max-width: 767){
+  .col-12 {
+  	float: left;
+    width: 100%;
+  }
+	
+}
+
+
+
+
+
+
+
